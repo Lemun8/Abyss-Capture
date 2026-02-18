@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_ColossalSquid
+  m_EditorClassIdentifier: 
+  creatureID: Creature_ColossalSquid
+  displayName: Colossal Squid
+  description: 'Scientific Name: Mesonychoteuthis hamiltoni
+
+
+
+    Habitat: Deep
+    waters (1,000-2,000m+) of the Southern Ocean, circumpolar around Antarctica.
+
+
+
+    Physical
+    Characteristics: Reddish-brown, with a large mantle; largest eyes in the animal
+    kingdom, up to 27-40 cm (10.6-16 inches) across, helping them see in the dark
+    deep sea; Arms/Tentacles Equipped with toothed suckers and swivel hooks for grasping
+    prey.
+
+
+
+    Size: Largest invertebrate by mass; reaches lengths of 9-10 meters
+    (30-33 feet) and weights over 495 kg (1,091 lbs).
+
+
+
+    Diet: Carnivorous, eating
+    fish (like Patagonian toothfish), other squid, and small animals.
+
+
+
+    Lifespan:
+    Short, estimated at only 1-2 years.
+
+
+
+    The colossal squid (Mesonychoteuthis
+    hamiltoni) is a massive deep-sea squid from the Southern Ocean and is considered
+    the largest squid species by mass, as well as the largest living invertebrate.
+    Reaching confirmed weights of nearly 500 kg and possibly up to 700 kg, it has
+    a maximum body length of about 4.2 meters, with much longer tentacles used only
+    during feeding. It also possesses the largest eyes of any known animal, allowing
+    it to detect prey and predators in the dark depths.
+
+
+
+    This species belongs
+    to the glass squid family (Cranchiidae) but is unique for having hooks on its
+    arms and tentacles. Living in circumantarctic waters, the colossal squid is believed
+    to be an ambush predator that feeds mainly on fish and serves as an important
+    prey species for sperm whales, playing a key role in the deep-sea food chain.'
+  photoScore: 300
+  minSpawnDepth: 2800
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 1
+  realLifeImage: {fileID: 0}
+  minPhotoSize: 0.2

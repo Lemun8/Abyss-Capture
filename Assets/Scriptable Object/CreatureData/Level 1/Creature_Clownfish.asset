@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Clownfish
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Clownfish
+  displayName: Clownfish
+  description: 'Scientific Name: Amphiprioninae (subfamily); common species Amphiprion
+    ocellaris (Ocellaris Clownfish).
+
+
+
+    Habitat: Coral reefs in the tropical
+    Indo-Pacific, living in shallow lagoons.
+
+
+
+    Physical Characteristics: Stocky,
+    oval body; typically orange with three white bars outlined in black, though variations
+    exist (e.g., black, yellow).
+
+
+
+    Size: Up to 11 cm (4.3 inches) for common
+    species.
+
+
+
+    Diet: Omnivorous, eating algae, zooplankton, small invertebrates,
+    and debris from their host anemone.
+
+
+
+    Lifespan: 6-10 years in the wild,
+    longer in captivity
+
+
+
+    Clownfish, also known as anemonefishes (Amphiprion),
+    are small saltwater fish found in warm tropical Indo-Pacific coral reefs. They
+    are easily recognized by their bright colors with white vertical stripes and
+    live in a mutually beneficial relationship with sea anemones, which provide protection
+    while clownfish defend, clean, and support the anemone.
+
+
+
+    Clownfish are
+    omnivorous, feeding mainly on plankton, and live in structured groups led by
+    a dominant breeding female. They have a unique social system where the breeding
+    male can change sex if the female is lost, and reproduction occurs near their
+    host anemone before larvae disperse into the open ocean and later settle as juveniles.
+
+'
+  photoScore: 10
+  minSpawnDepth: 0
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: a837dd3d0fe54b94baa5ab5f8fe3d4ab, type: 3}
+  minPhotoSize: 0.2

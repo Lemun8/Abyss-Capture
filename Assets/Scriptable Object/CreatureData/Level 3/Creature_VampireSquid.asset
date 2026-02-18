@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_VampireSquid
+  m_EditorClassIdentifier: 
+  creatureID: Creature_VampireSquid
+  displayName: Vampire Squid
+  description: 'Scientific Name: Vampyroteuthis infernalis ("vampire squid from hell").
+
+
+
+    Habitat:
+    Deep, cold, low-oxygen waters (oxygen minimum zone) in tropical and temperate
+    oceans, 300-3000m deep.
+
+
+
+    Physical Characteristics: Velvety black or reddish,
+    with large, luminous blue or red eyes, eight webbed arms, and two long, sticky
+    filaments.
+
+
+
+    Size: Up to 30 cm (1 foot) long, with a small gelatinous body.
+
+
+
+    Diet:
+    Detritivore, consuming "marine snow" (organic debris) and fecal pellets, not
+    live prey.
+
+
+
+    Lifespan: An adult stage of 3-8 years is hypothesized based
+    on egg counts, suggesting total life is even longer.
+
+
+
+    The vampire squid
+    (Vampyroteuthis infernalis, lit. ''vampire squid from hell'') is a small cephalopod
+    found throughout temperate and tropical oceans in extreme deep sea conditions.
+    The vampire squid uses its bioluminescent organs and its unique oxygen metabolism
+    to thrive in the parts of the ocean with the lowest concentrations of oxygen.
+    It has two long retractile filaments, located between the first two pairs of
+    arms on its dorsal side, which distinguish it from both octopuses and squids,
+    though its closest relatives are octopods. As a phylogenetic relict, it is the
+    only known surviving member of the order Vampyromorphida.
+
+    The first specimens
+    were collected on the Valdivia Expedition and were originally described as an
+    octopus in 1903 by German teuthologist Carl Chun, but later assigned to a new
+    order together with several extinct taxa.'
+  photoScore: 125
+  minSpawnDepth: 2750
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 2
+  realLifeImage: {fileID: 21300000, guid: 918f975b8e7bb584cb098cc54e4761ee, type: 3}
+  minPhotoSize: 0.2

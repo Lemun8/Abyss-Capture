@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb977c0183235a640b65fbdf989a6273, type: 3}
+  m_Name: Level-1-Creatures
+  m_EditorClassIdentifier: 
+  creatures:
+  - creatureData: {fileID: 11400000, guid: 991ff2b92d63e834c949198a18e60600, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 3d27e2832ff54234db11643f62d614f8, type: 3}
+    weight: 50
+  - creatureData: {fileID: 11400000, guid: d39d7e8363922eb409572e28ae604284, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 0c92acf91feedcc4481fc80b7101930c, type: 3}
+    weight: 50
+  - creatureData: {fileID: 11400000, guid: 8083081b39901d145a341ba0973b947e, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 905a1d3f103a62440b82a184da5f3d3c, type: 3}
+    weight: 20
+  - creatureData: {fileID: 11400000, guid: 463a7834d0a4b4043b6063b64e522d68, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 1d8edba5018d57b4185d258e7e851bdc, type: 3}
+    weight: 15
+  - creatureData: {fileID: 11400000, guid: fd6b9c076ba2ed1498617757787c2850, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 22ee1500ef97da54380658e71fd6f9aa, type: 3}
+    weight: 15
+  - creatureData: {fileID: 11400000, guid: 4b313961d85ef7a4fb838676b79ce3d0, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: c713e9bd519ab374994feae29463a00b, type: 3}
+    weight: 1
+  - creatureData: {fileID: 11400000, guid: dd6e380efd95ca145a4b301740287ac2, type: 2}
+    creaturePrefab: {fileID: 6063601509706735710, guid: 63d5aa2514ec29144bf91d51837336e8, type: 3}
+    weight: 5

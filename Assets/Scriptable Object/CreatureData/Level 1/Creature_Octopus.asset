@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Octopus
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Octopus
+  displayName: Giant Pacific Octopus
+  description: 'Scientific Name: Enteroctopus dofleini
+
+
+
+    Habitat: Cold, temperate
+    waters of the North Pacific (Alaska to California, Japan).
+
+
+
+    Physical Characteristics:
+    Bulb-shaped body (mantle), eight arms with two rows of suckers (up to 280 per
+    arm), and a parrot-like beak, typically reddish-brown but changes color and texture
+    for camouflage.
+
+
+
+    Size: Can reach 15-20 ft arm span, weighing over 100 lbs;
+    average is 50-65 lbs.
+
+
+
+    Diet: Carnivores, eating crabs, clams, fish, shrimp,
+    and mollusks.
+
+
+
+    Lifespan: Short, typically 3-5 years.
+
+
+
+    The giant Pacific
+    octopus (Enteroctopus dofleini) is the largest octopus species in the world,
+    inhabiting the cold, nutrient-rich waters of the North Pacific Ocean. Its range
+    extends from Baja California up through the western coast of North America and
+    across to Russia, Japan, and the Korean Peninsula, living from shallow intertidal
+    zones down to depths of about 2,000 meters.
+
+
+
+    This highly intelligent cephalopod
+    plays an important role in maintaining marine ecosystem balance and is widely
+    studied in cognitive research. Due to its size and adaptability, the giant Pacific
+    octopus is also commonly seen in aquariums and contributes significantly to both
+    scientific research and regional fisheries.'
+  photoScore: 250
+  minSpawnDepth: 1000
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: 44c25af987cd50f4093ebe17bcaea2e6, type: 3}
+  minPhotoSize: 0.2

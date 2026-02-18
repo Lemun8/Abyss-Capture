@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Shark_Level2
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Shark
+  displayName: Great White Shark
+  description: 'The great white shark (Carcharodon carcharias) is the largest living
+    predatory fish, recognized by its gray upper body, white underside, and rows
+    of sharp, serrated teeth. Found in tropical and temperate oceans worldwide, it
+    is a powerful, partially warm-blooded hunter that feeds on fish, other sharks,
+    marine mammals, and carrion, and is capable of long-distance migrations across
+    entire oceans.
+
+
+
+    Despite its fearsome reputation in popular culture, great
+    white sharks rarely attack humans and are typically solitary, gathering only
+    at feeding sites. The species is ovoviviparous, with pups born live after developing
+    inside the mother, and juveniles remain in shallow waters until large enough
+    to hunt bigger prey. Currently listed as vulnerable, great white sharks face
+    threats from fishing, bycatch, and habitat pressure, leading to global conservation
+    efforts to protect them.
+
+'
+  photoScore: 300
+  minSpawnDepth: 1750
+  maxSpawnDepth: 2400
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 0}
+  depthZone: 0
+  realLifeImage: {fileID: 0}
+  minPhotoSize: 0.2

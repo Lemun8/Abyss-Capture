@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_BlueTang
+  m_EditorClassIdentifier: 
+  creatureID: Creature_BlueTang
+  displayName: Blue Tang
+  description: "Common Names: Regal Blue Tang, Hippo Tang, Pacific Blue Tang, Palette
+    Surgeonfish, Royal Blue Tang\n\r\nScientific Name: Paracanthurus hepatus\n\r\nHabitat:
+    Indo-Pacific region (Philippines, Indonesia, Japan, Great Barrier Reef, East
+    Africa).\n\r\nPhysical Characteristics: Vivid royal blue body with a black \"palette\"
+    design and a brilliant yellow tail.\n\r\nSize: Adults reach up to 12 inches (30\u201331
+    cm) in length.\n\r\nDiet: Primarily Herbivore/Omnivore (adults graze on algae,
+    juveniles eat zooplankton).\n\r\nLifespan: Up to 30 years in the wild; 8\u201312
+    years in captivity.\r\n\r\nThe Blue Tang (Paracanthurus hepatus) is an Indo-Pacific
+    surgeonfish widely known for its bright blue coloration and popularity in marine
+    aquariums. It is the only species in the genus Paracanthurus and is commonly
+    referred to by many names, such as regal tang, blue hippo tang, and royal blue
+    tang.\n\r\nThis species is most closely related to the genus Zebrasoma, forming
+    a sister group, and is often confused with the Atlantic blue tang (Acanthurus
+    coeruleus) due to similar common names."
+  photoScore: 15
+  minSpawnDepth: 100
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: e3794be985269ba49b5b933ded9cc847, type: 3}
+  minPhotoSize: 0.2

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6b51888d8e091418a13aaef0095bcc, type: 3}
+  m_Name: Level-1-Data
+  m_EditorClassIdentifier: 
+  levelID: 1
+  levelName: Level-1-Lit
+  minDepth: 0
+  maxDepth: 1500
+  worldTopY: 5
+  worldBottomY: -50
+  playerPrefab: {fileID: 6922640623499816976, guid: 44cb22c246cc29d4a903cbde64e8d9c3, type: 3}
+  spawnTable: {fileID: 11400000, guid: 629bb810bedd6084ba1e16cb46aba6a0, type: 2}
+  creditRewardPerStar: 500

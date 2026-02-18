@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Isopod_Level3
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Isopod
+  displayName: Isopod
+  description: 'Giant isopods are large deep-sea crustaceans from the genus Bathynomus,
+    found in the cold waters of the Atlantic, Pacific, and Indian Oceans. They resemble
+    oversized woodlice and include nearly 20 species, with Bathynomus giganteus often
+    regarded as the largest, though some related species may reach similar sizes.
+
+
+
+    First
+    described in 1879, giant isopods became famous for challenging the idea of a
+    lifeless deep ocean. While not important to commercial fisheries, they are known
+    to damage fishing nets and are sometimes displayed in public aquariums in Japan
+    and the Americas.'
+  photoScore: 75
+  minSpawnDepth: 2500
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 0}
+  depthZone: 2
+  realLifeImage: {fileID: 0}
+  minPhotoSize: 0.2

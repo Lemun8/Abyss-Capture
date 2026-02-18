@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Blob
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Blob
+  displayName: Blobfish
+  description: 'Scientific Name: Psychrolutes marcidus
+
+
+
+    Nickname: "World''s
+    Ugliest Animal" (due to its, often-misunderstood, appearance when caught)
+
+
+
+    Habitat:
+    Deep ocean floors (2,000 to 4,000+ feet or 600-1,200+ meters) off the coasts
+    of Australia, Tasmania, and New Zealand.
+
+
+
+    Physical Characteristics: Underwater:
+    Looks like a normal fish with a large head, tapered body, and dark eyes; surface
+    appears as a blob-like, gelatinous mass due to decompression damage.
+
+    Size:
+    Typically less than 1 foot (30 cm) long.
+
+
+
+    Diet: "Lie-in-wait" predator;
+    eats crustaceans, mollusks, sea urchins, and sea pens that drift into its mouth.
+
+
+
+    Lifespan:
+    Estimated to be up to 130 years.
+
+
+
+    The blobfish (Psychrolutes marcidus)
+    is a deep-sea fish found off the coasts of Australia, Tasmania, and New Zealand.
+    It lives at depths of 600 to 1,200 meters, where extreme pressure makes traditional
+    swim bladders ineffective.
+
+
+
+    Instead, the blobfish has a gelatinous body
+    with a density slightly less than water, allowing it to float just above the
+    seafloor with minimal energy use. Although it has little muscle, this suits its
+    lifestyle, as it feeds mainly on small deep-sea crustaceans drifting within reach.'
+  photoScore: 75
+  minSpawnDepth: 600
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: 76427024ee9c7a54abf55215389fb17e, type: 3}
+  minPhotoSize: 0.2

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_SeaToad
+  m_EditorClassIdentifier: 
+  creatureID: Creature_SeaToad
+  displayName: Sea Toad
+  description: "Scientific Name: Eurypharynx pelecanoides.\n\r\nHabitat: Deep waters
+    (continental shelves/slopes) in Atlantic, Indian, Pacific Oceans. range shallow
+    to at least 8,000 ft (2,460 m).\n\r\nPhysical Characteristics: Globose body,
+    large upward-pointing mouth, loose skin with small spiny scales, often red/pink,
+    unique \"fishing rod\" lure (esca) on head.\n\r\nSize: Generally under 12 inches
+    (30 cm).\n\r\nDiet: Small fish, invertebrates.\n\r\nLifespan: Average 5-10 years
+    in the wild, but can live much longer; 10-15 years or more in captivity, with
+    records of over 35 years. \r\n\r\nSea toads, also known as coffinfishes, belong
+    to the deep-sea fish family Chaunacidae, part of the anglerfish order Lophiiformes.
+    They are bottom-dwelling fishes found on continental slopes across the Atlantic,
+    Indian, and Pacific Oceans, living at extreme depths of up to 2,460 meters, often
+    near volcanic or mineral-rich seabeds.\n\r\nThe family consists of two genera,
+    Chaunax and Chaunacops, with Chaunacops generally inhabiting deeper waters, though
+    their ranges overlap. These rare deep-sea anglerfishes have also been discovered
+    near Australia and New Caledonia, highlighting their wide but specialized distribution
+    in the deep ocean."
+  photoScore: 225
+  minSpawnDepth: 2950
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 2
+  realLifeImage: {fileID: 21300000, guid: 1013decbbccd74549acfec972c3764b0, type: 3}
+  minPhotoSize: 0.2

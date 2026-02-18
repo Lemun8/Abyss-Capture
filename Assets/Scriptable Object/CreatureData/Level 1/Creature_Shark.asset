@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Shark
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Shark
+  displayName: Great White Shark
+  description: 'Scientific Name: Carcharodon carcharias
+
+
+
+    Habitat: Global, temperate/subtropical
+    coastal waters.
+
+
+
+    Physical Characteristics: Countershading (dark back, white
+    belly).
+
+
+
+    Size: Females average 15-16 ft; males 11-13 ft; can exceed 20
+    ft.
+
+    Weight: Females 2,200-4,200 lbs; males 1,500-2,200 lbs; some over 5,000
+    lbs.
+
+
+
+    Diet: Carnivore (seals, sea lions, fish, dolphins, whales).
+
+
+
+    Teeth:
+    Approx. 300 in multiple rows, continuously replaced.
+
+
+
+    Lifespan: 70+ years.
+
+
+
+    The
+    great white shark (Carcharodon carcharias) is the largest living predatory fish,
+    recognized by its gray upper body, white underside, and rows of sharp, serrated
+    teeth. Found in tropical and temperate oceans worldwide, it is a powerful, partially
+    warm-blooded hunter that feeds on fish, other sharks, marine mammals, and carrion,
+    and is capable of long-distance migrations across entire oceans.
+
+
+
+    Despite
+    its fearsome reputation in popular culture, great white sharks rarely attack
+    humans and are typically solitary, gathering only at feeding sites. The species
+    is ovoviviparous, with pups born live after developing inside the mother, and
+    juveniles remain in shallow waters until large enough to hunt bigger prey. Currently
+    listed as vulnerable, great white sharks face threats from fishing, bycatch,
+    and habitat pressure, leading to global conservation efforts to protect them.'
+  photoScore: 300
+  minSpawnDepth: 750
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: 76e0e2620cd56954bbe158b77f973e9c, type: 3}
+  minPhotoSize: 0.2

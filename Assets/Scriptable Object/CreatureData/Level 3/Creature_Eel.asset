@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Eel
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Eel
+  displayName: Pelican Eel
+  description: 'Scientific Name: Eurypharynx pelecanoides.
+
+
+
+    Common Names: Pelican
+    Eel, Gulper Eel, Pelican Gulper, Umbrella-mouth Gulper.
+
+
+
+    Habitat: Deep,
+    midwaters of tropical and temperate oceans worldwide, at depths of 500 to 3,000
+    meters.
+
+
+
+    Physical Characteristics: Mouth Extremely large, expandable pharynx
+    to engulf prey; long tail , ribbon-like, ending in a bioluminescent (light-producing)
+    organ; lacks scales, pelvic fins, and a swim bladder; has a unique lateral line
+    system with elevated tubules.
+
+
+
+    Size: Around 0.75 to 1 meter (2.5-3.3 ft)
+    long, with a slender, black body.
+
+
+
+    Diet: Crustaceans, small fish, squid,
+    and other invertebrates, using its mouth like a net.
+
+
+
+    Lifespan: Estimated
+    Lifespan Over 80 to 85 years.
+
+
+
+    The pelican eel (Eurypharynx pelecanoides)
+    is a deep-sea eel and the only known species in both its genus and family. It
+    belongs to a unique group of true eels characterized by an extremely large, pelican-like
+    mouth, which gives the species its name and common nickname, gulper eel.
+
+
+
+    Found
+    in the deep ocean, the pelican eel has been described under many names, though
+    all evidence suggests only one species exists. Its expandable mouth allows it
+    to capture prey much larger than itself, making it well adapted to the scarce-food
+    conditions of the deep sea.'
+  photoScore: 150
+  minSpawnDepth: 2850
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 2
+  realLifeImage: {fileID: 21300000, guid: 69643eea51b7d8841ac10b3c5fea5962, type: 3}
+  minPhotoSize: 0.2

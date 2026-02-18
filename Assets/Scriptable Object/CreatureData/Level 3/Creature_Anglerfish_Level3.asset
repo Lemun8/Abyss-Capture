@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Anglerfish_Level3
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Anglerfish
+  displayName: Anglerfish
+  description: 'Anglerfish are ray-finned fishes belonging to the order Lophiiformes,
+    named for their unique hunting method in which a modified dorsal fin acts as
+    a lure to attract prey. This lure, consisting of the illicium and its glowing
+    tip called the esca, varies across species and is adapted to draw in specific
+    prey through different visual or bioluminescent signals.
+
+
+
+    Found worldwide,
+    anglerfish inhabit a wide range of environments, from shallow coastal waters
+    to the deep sea, where many species are either bottom-dwellers or pelagic. They
+    are also famous for extreme sexual dimorphism, with tiny males attaching to much
+    larger females in some deep-sea species, forming a rare reproductive strategy
+    known as sexual parasitism.
+
+'
+  photoScore: 50
+  minSpawnDepth: 2400
+  maxSpawnDepth: 3000
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 0}
+  depthZone: 1
+  realLifeImage: {fileID: 0}
+  minPhotoSize: 0.2

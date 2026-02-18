@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Octopus_Level2
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Octopus
+  displayName: Giant Pacific Octopus
+  description: 'The giant Pacific octopus (Enteroctopus dofleini) is the largest
+    octopus species in the world, inhabiting the cold, nutrient-rich waters of the
+    North Pacific Ocean. Its range extends from Baja California up through the western
+    coast of North America and across to Russia, Japan, and the Korean Peninsula,
+    living from shallow intertidal zones down to depths of about 2,000 meters.
+
+
+
+    This
+    highly intelligent cephalopod plays an important role in maintaining marine ecosystem
+    balance and is widely studied in cognitive research. Due to its size and adaptability,
+    the giant Pacific octopus is also commonly seen in aquariums and contributes
+    significantly to both scientific research and regional fisheries.
+
+'
+  photoScore: 250
+  minSpawnDepth: 1900
+  maxSpawnDepth: 2400
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 0}
+  depthZone: 0
+  realLifeImage: {fileID: 0}
+  minPhotoSize: 0.2

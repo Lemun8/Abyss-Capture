@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89241bbfd3b8cd04988e4c0a2122f3df, type: 3}
+  m_Name: Creature_Jellyfish
+  m_EditorClassIdentifier: 
+  creatureID: Creature_Jellyfish
+  displayName: Compass Jellyfish
+  description: 'Common Names: Compass Jellyfish, Red-banded Jellyfish, Sea Nettle.
+
+
+
+    Scientific
+    Name: Chrysaora hysoscella
+
+
+
+    Habitat: Coastal waters of the North Atlantic,
+    North Sea, English Channel, and Mediterranean Sea.
+
+
+
+    Physical Characteristics:
+    Translucent, yellowish-white bell with 16 distinct reddish-brown V-shaped marks
+    pointing inward, plus a central spot.
+
+
+
+    Size: Bell diameter up to 30 cm
+    (12 inches).
+
+
+
+    Tentacles: 24 thin marginal tentacles (in 8 groups of 3)
+    and 4 longer, frilly oral arms.
+
+
+
+    Diet: Small fish, crabs, other jellyfish,
+    plankton, and marine invertebrates.
+
+
+
+    Lifespan: Their entire life as a medusa
+    (the free-swimming jellyfish stage) often lasts around a year.
+
+
+
+    The compass
+    jellyfish (Chrysaora hysoscella) is a common true jellyfish found in temperate
+    coastal waters of the northeastern Atlantic, including the North Sea and Mediterranean
+    Sea. It is easily recognized by the brown, V-shaped markings on its bell and
+    has a life cycle that includes a seabed polyp stage before developing into a
+    free-swimming adult.
+
+
+
+    Feeding on plankton and small marine invertebrates,
+    the compass jellyfish has few natural predators and is often affected by a parasite
+    without major population impact. Its growing numbers contribute to jellyfish
+    overpopulation, which can interfere with recreation, disrupt fishing activities,
+    and affect marine ecosystems.
+
+'
+  photoScore: 50
+  minSpawnDepth: 300
+  maxSpawnDepth: 1500
+  lockedDescription: This creature has not been documented yet.
+  lockedPlaceholder: {fileID: 21300000, guid: ce3f6902aa753044db600d2f2ab313c5, type: 3}
+  depthZone: 0
+  realLifeImage: {fileID: 21300000, guid: 569d3d0e18cbcf5448e05b0757c0d7f4, type: 3}
+  minPhotoSize: 0.2
