@@ -114,9 +114,9 @@ Photo Mode: Maximum drain (4 units/sec) when actively photographing, pressuring 
 Core progression systems use DontDestroyOnLoad singletons to maintain state across scene transitions, creating a persistent game world that remembers player progress.
 
 *   **Implementation:** Managers like UpgradeManager, CurrencyManager, EncyclopediaManager, and AudioManager follow the same pattern:
-**  Check if Instance already exists in Awake()
-If yes, destroy the duplicate; if no, assign self and call DontDestroyOnLoad(gameObject)
-Load saved data from PlayerPrefs immediately after initialization
+- Check if Instance already exists in Awake()
+- If yes, destroy the duplicate; if no, assign self and call DontDestroyOnLoad(gameObject)
+- Load saved data from PlayerPrefs immediately after initialization
 *   **Cross-Scene Persistence:** This allows players to purchase upgrades in the hub, dive into levels with those upgrades active, earn currency from discoveries, return to the hub, and find their progress intact—all without manual save/load management between scenes.
 *   **Centralized Access:** The Instance pattern provides global access points (e.g., CurrencyManager.Instance.AddCurrency()) that any script can call without requiring Inspector references, simplifying dependency management.
 
