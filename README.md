@@ -93,20 +93,20 @@ The creature spawning system creates an adaptive ecosystem by spawning different
 The game uses C# Actions and Events as a pub-sub system to prevent tight coupling between gameplay systems, allowing managers to communicate without direct references.
 
 *   **Core Pattern:** Systems broadcast events (e.g., LevelManager.OnPlayerSpawned, PlayerOxygen.OnOxygenDepleted) that other components subscribe to, creating a reactive architecture where systems respond to game state changes automatically.
-*   **Example Flow:** 
-LevelManager spawns the player and invokes OnPlayerSpawned?.Invoke(playerInstance)
-CreatureSpawner listens to this event and caches the DepthTracker component
-PlayerOxygenUI subscribes to update its display when oxygen spawns
-No system needs direct references to each other, only to the event itself
+*   **Example Flow:**
+  -  LevelManager spawns the player and invokes OnPlayerSpawned?.Invoke(playerInstance)
+  -  CreatureSpawner listens to this event and caches the DepthTracker component
+  -  PlayerOxygenUI subscribes to update its display when oxygen spawns
+  -  No system needs direct references to each other, only to the event itself
 *   **Lifecycle Management:** Components subscribe in OnEnable() and unsubscribe in OnDisable(), preventing memory leaks and ensuring clean teardown when scenes change.
 
 #### 4. State-Driven Oxygen Drain System
 Rather than a fixed depletion rate, the oxygen system uses contextual drain rates that respond to player actions, creating strategic resource management gameplay.
 
 *   **Dynamic Rates:** PlayerOxygen.cs evaluates the player's current state each frame:
-Idle: Minimal drain (1 unit/sec) when stationary
-Moving: Increased drain (2.5 units/sec) when swimming via Rigidbody2D velocity checks
-Photo Mode: Maximum drain (4 units/sec) when actively photographing, pressuring players to be decisive
+  -  Idle: Minimal drain (1 unit/sec) when stationary
+  -  Moving: Increased drain (2.5 units/sec) when swimming via Rigidbody2D velocity checks
+  -  Photo Mode: Maximum drain (4 units/sec) when actively photographing, pressuring players to be decisive
 *   **Upgrade Integration:** The oxygen system queries UpgradeManager.Instance at spawn to modify maxOxygen based on purchased upgrades, making progression feel meaningful and extending dive duration.
 *   **Forced Surfacing:** When oxygen depletes, the system stops score accumulation via ScoreManager.Instance.StopScoring() and broadcasts OnOxygenDepleted, triggering the end-of-dive sequence across multiple systems simultaneously.
 
@@ -125,7 +125,7 @@ The game creates a collection-driven reward system where documenting unique spec
 
 *   **Tracking Uniqueness:** LevelStarTracker.cs uses a HashSet<string> to track documented creatureID values, automatically preventing duplicate entries and counting only unique species discoveries per dive.
 *   **Tiered Rewards:** Stars are awarded based on completion thresholds:
-1 Star: Document any creature (≥1 species)
-2 Stars: Document 60% of level's unique species
-3 Stars: Document 100% of all species in the level
+  -  1 Star: Document any creature (≥1 species)
+  -  2 Stars: Document 60% of level's unique species
+  -  3 Stars: Document 100% of all species in the level
 *   **Incremental Rewards:** The system only awards currency for new stars earned, comparing newStars against starsAwarded and granting creditRewardPerStar multiplied by the difference, preventing exploitation through replaying.
