@@ -81,10 +81,51 @@ Instead of relying on raycasts or trigger colliders, the photo system uses dynam
 
 *   **How it works:** PhotoCapture.cs calculates the world-space bounds of the UI photo frame using RectTransform.GetWorldCorners(), then performs a Physics2D.OverlapBoxAll() query to detect all creatures within that rectangular area when the player clicks.
 *   **Frame Precision:** The system converts screen-space UI corners to world-space coordinates, creating an accurate detection zone that perfectly matches what the player sees in the viewfinder, eliminating mismatches between visual feedback and capture logic.
-  
+
 #### 2. Depth-Based Dynamic Spawning
 The creature spawning system creates an adaptive ecosystem by spawning different species based on the player's current depth, simulating realistic ocean biome distributions.
 
 *   **How it works:** CreatureSpawner.cs queries the player's DepthTracker every spawn interval, then uses CreatureSpawnTable.GetRandomPrefabForDepth() to select species appropriate for that depth range, ensuring shallow water creatures don't appear in the abyss.
 *   **Off-Screen Spawning:** Creatures spawn just outside the camera's viewport using Camera.ViewportToWorldPoint() calculations with a configurable buffer zone, making creatures appear naturally as the player explores rather than popping in visibly.
 *   **Population Control:** The spawner maintains a maxActiveCreatures limit and validates spawn positions against level bounds and collision layers before instantiation, preventing overcrowding and invalid placements.
+
+#### 3. Event-Driven Decoupled Architecture
+The game uses C# Actions and Events as a pub-sub system to prevent tight coupling between gameplay systems, allowing managers to communicate without direct references.
+
+*   **Core Pattern:** Systems broadcast events (e.g., LevelManager.OnPlayerSpawned, PlayerOxygen.OnOxygenDepleted) that other components subscribe to, creating a reactive architecture where systems respond to game state changes automatically.
+*   **Example Flow:** 
+LevelManager spawns the player and invokes OnPlayerSpawned?.Invoke(playerInstance)
+CreatureSpawner listens to this event and caches the DepthTracker component
+PlayerOxygenUI subscribes to update its display when oxygen spawns
+No system needs direct references to each other, only to the event itself
+*   **Lifecycle Management:** Components subscribe in OnEnable() and unsubscribe in OnDisable(), preventing memory leaks and ensuring clean teardown when scenes change.
+
+#### 4. State-Driven Oxygen Drain System
+Rather than a fixed depletion rate, the oxygen system uses contextual drain rates that respond to player actions, creating strategic resource management gameplay.
+
+*   **Dynamic Rates:** PlayerOxygen.cs evaluates the player's current state each frame:
+Idle: Minimal drain (1 unit/sec) when stationary
+Moving: Increased drain (2.5 units/sec) when swimming via Rigidbody2D velocity checks
+Photo Mode: Maximum drain (4 units/sec) when actively photographing, pressuring players to be decisive
+*   **Upgrade Integration:** The oxygen system queries UpgradeManager.Instance at spawn to modify maxOxygen based on purchased upgrades, making progression feel meaningful and extending dive duration.
+*   **Forced Surfacing:** When oxygen depletes, the system stops score accumulation via ScoreManager.Instance.StopScoring() and broadcasts OnOxygenDepleted, triggering the end-of-dive sequence across multiple systems simultaneously.
+
+#### 5. Persistent Manager Singleton Pattern
+Core progression systems use DontDestroyOnLoad singletons to maintain state across scene transitions, creating a persistent game world that remembers player progress.
+
+*   **Implementation:** Managers like UpgradeManager, CurrencyManager, EncyclopediaManager, and AudioManager follow the same pattern:
+Check if Instance already exists in Awake()
+If yes, destroy the duplicate; if no, assign self and call DontDestroyOnLoad(gameObject)
+Load saved data from PlayerPrefs immediately after initialization
+*   **Cross-Scene Persistence:** This allows players to purchase upgrades in the hub, dive into levels with those upgrades active, earn currency from discoveries, return to the hub, and find their progress intact—all without manual save/load management between scenes.
+*   **Centralized Access:** The Instance pattern provides global access points (e.g., CurrencyManager.Instance.AddCurrency()) that any script can call without requiring Inspector references, simplifying dependency management.
+
+#### 6. Star-Based Progression Loop
+The game creates a collection-driven reward system where documenting unique species awards stars, which unlock currency, forming a positive feedback loop that encourages exploration.
+
+*   **Tracking Uniqueness:** LevelStarTracker.cs uses a HashSet<string> to track documented creatureID values, automatically preventing duplicate entries and counting only unique species discoveries per dive.
+*   **Tiered Rewards:** Stars are awarded based on completion thresholds:
+1 Star: Document any creature (≥1 species)
+2 Stars: Document 60% of level's unique species
+3 Stars: Document 100% of all species in the level
+*   **Incremental Rewards:** The system only awards currency for new stars earned, comparing newStars against starsAwarded and granting creditRewardPerStar multiplied by the difference, preventing exploitation through replaying.
